@@ -16,6 +16,6 @@ rm -f crictl-$VERSION-linux-amd64.tar.gz
 
 # zsh & ohmyzsh
 sudo apt-get install -y zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
 
